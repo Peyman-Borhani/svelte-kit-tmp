@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+jsconfig.json
+package.json
+pnpm-lock.yaml
+svelte.config.js
+static/favicon.png
+static/robots.txt
+static/svelte-welcome.png
+static/svelte-welcome.webp
