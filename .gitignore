@@ -1,4 +1,8 @@
 .DS_Store
+src/global.d.ts
+src/hook.js
+src/lib/form.js
+src/routes/todos
 node_modules
 /build
 /.svelte-kit
@@ -7,7 +11,9 @@ jsconfig.json
 package.json
 pnpm-lock.yaml
 svelte.config.js
+
 static/favicon.png
 static/robots.txt
 static/svelte-welcome.png
 static/svelte-welcome.webp
+.gitignore
