@@ -1,10 +1,19 @@
-# create-svelte
+# An better version of svelte-kit demo template.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+- updated the CSS stylesheets, units... to be fully resposive (dynamic).
+- improved the design.
+- fixed some design flaws.
+- fixed few mistakes in css stylesheet.
+- fixed some incomplete css instructions.
+- added a nice transition when changing pages.
+
+### How to setup:
+* *After you installed svelte-kit, copy-paste/overwrite files at your project folder.*
+---
 
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
 ```bash
 # create a new project in the current directory
