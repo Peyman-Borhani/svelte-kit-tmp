@@ -10,9 +10,6 @@
 ### How to setup:
 * *After you installed svelte-kit, copy-paste/overwrite files to your project folder.*
 ---
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
 ## Creating a project
 
