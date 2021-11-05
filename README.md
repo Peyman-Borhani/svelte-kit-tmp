@@ -1,10 +1,22 @@
+# An improved version of svelte-kit default template.
+
+- updated: CSS stylesheets, units... to be fully resposive (dynamic).
+- improved the design.
+- fixed some design flaws.
+- fixed few mistakes in css stylesheet.
+- fixed: incomplete css instructions. (missed by developer).
+- adding a nice transition when changing pages.
+
+### How to setup:
+* *After you installed svelte-kit, copy-paste/overwrite files to your project folder.*
+---
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+To install svelte-kit use either npm or pnpm instructions bellow:
 
 ```bash
 # create a new project in the current directory
@@ -14,7 +26,9 @@ npm init svelte@next
 npm init svelte@next my-app
 ```
 
-> Note: the `@next` is temporary
+> note 1- the `@next` is temporary. 
+
+> note 2- pnpm is a better practice, * to use: replace npm with pnpm in all instructions. 
 
 ## Developing
 
