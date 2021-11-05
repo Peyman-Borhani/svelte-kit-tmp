@@ -10,11 +10,18 @@
 
 </script>
 
-
+<!-- In "__Layout" we include styles and components the app has in common,
+	 which applies to all pages. (Ex: header, footer, main, theme, color...)
+	 
+	 and individual pages/content resides in the <slot>
+	 slot is place-holder for our dynamic content (app pages in the route), 
+	 in this example contents/pages are placed within the "main" element as "slot"
+-->
 <Header />
 
-{#key x}	
-		<main 	in:fly = {{y: -8, duration: 700}} >  
+{#key x}
+		<main 	in:fly = {{y: -8, duration: 700}} >
+
 				<slot />
 		</main>
 {/key}
